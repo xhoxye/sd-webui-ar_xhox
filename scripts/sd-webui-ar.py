@@ -141,6 +141,7 @@ def parse_resolutions_file(filename, resolution_type):
 
 # TODO: write a generic function handling both cases 待办事项：编写一个通用的函数，处理分别写入多个文件的情况
 
+# 这个函数暂时没用到，是以前的功能遗留代码
 def write_aspect_ratios_file(filename): # 该函数的功能是将多个宽高比信息的列表写入到指定的文件中。函数接受一个参数filename，表示要写入的文件名。
     # 定义了一个列表aspect_ratios，其中包含了常用SD1.5宽高比例的信息。
     aspect_ratios = [ 
